@@ -1,0 +1,8 @@
+export const PetEvents = {
+  USER_CLICK: 'USER_CLICK',
+  CPU_HIGH: 'CPU_HIGH',
+  MEMORY_HIGH: 'MEMORY_HIGH',
+  FILE_DELETE: 'FILE_DELETE',
+  AI_CHAT: 'AI_CHAT',
+  TOKEN_LOW: 'TOKEN_LOW'
+} as const;
